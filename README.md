@@ -9,6 +9,13 @@
   <img src="./artifacts/playwright/screen-start.png" alt="Game start" width="72%" />
 </div>
 
+<div align="center">
+  <h3>Media</h3>
+  <img src="./artifacts/playwright/clip-01-opening.gif" alt="Opening route" width="30%" />
+  <img src="./artifacts/playwright/clip-02-enemy-pressure.gif" alt="Enemy pressure" width="30%" />
+  <img src="./artifacts/playwright/clip-03-recovery-route.gif" alt="Recovery route" width="30%" />
+</div>
+
 ## GIF Captures
 - Opening Route: `artifacts/playwright/clip-01-opening.gif`
 - Enemy Pressure: `artifacts/playwright/clip-02-enemy-pressure.gif`
