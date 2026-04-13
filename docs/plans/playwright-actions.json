@@ -1,0 +1,19 @@
+{
+  "schema": "web_game_playwright_client",
+  "actions": [
+    {
+      "name": "open-and-start",
+      "buttons": ["left_mouse_button"],
+      "mouse_x": 640,
+      "mouse_y": 360,
+      "frames": 60
+    },
+    {
+      "name": "deterministic-hop-sequence",
+      "buttons": [],
+      "mouse_x": 640,
+      "mouse_y": 360,
+      "frames": 240
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+:root {
+  color-scheme: dark;
+  --bg: #0c1019;
+  --panel: #182235;
+  --accent: #ffb13d;
+  --text: #e7edf7;
+  --muted: #9fb2ca;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% 10%, #1f2c45 0%, var(--bg) 55%);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: var(--text);
+}
+
+.app {
+  margin: 0 auto;
+  max-width: 980px;
+  min-height: 100dvh;
+  padding: 24px 16px;
+  display: grid;
+  gap: 12px;
+}
+
+h1 { margin: 0; color: var(--accent); }
+p { margin: 0; color: var(--muted); }
+
+.hud {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  gap: 8px;
+  background: color-mix(in srgb, var(--panel) 92%, black 8%);
+  border: 1px solid #2f4061;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+canvas {
+  width: 100%;
+  border: 2px solid #2f4061;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #0f1627 0%, #0a0f1a 100%);
+}
+
+.help { font-size: 0.95rem; }
+
+@media (max-width: 720px) {
+  .hud { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
+}
